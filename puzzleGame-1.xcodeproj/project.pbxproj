@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4715FB2B29BA573500587F20 /* DragableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4715FB2A29BA573500587F20 /* DragableImage.swift */; };
+		4715FB2D29BA5D6700587F20 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4715FB2C29BA5D6700587F20 /* PuzzleView.swift */; };
 		4743AC8729B8F3B500242526 /* puzzleGame_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743AC8629B8F3B500242526 /* puzzleGame_1App.swift */; };
 		4743AC8B29B8F3B700242526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC8A29B8F3B700242526 /* Assets.xcassets */; };
 		4743AC8E29B8F3B700242526 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC8D29B8F3B700242526 /* Preview Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4715FB2A29BA573500587F20 /* DragableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragableImage.swift; sourceTree = "<group>"; };
+		4715FB2C29BA5D6700587F20 /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
 		4743AC8329B8F3B500242526 /* puzzleGame-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "puzzleGame-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4743AC8629B8F3B500242526 /* puzzleGame_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzleGame_1App.swift; sourceTree = "<group>"; };
 		4743AC8A29B8F3B700242526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			children = (
 				4743AC8629B8F3B500242526 /* puzzleGame_1App.swift */,
 				4743AC9429B8F3E500242526 /* ImagePicker.swift */,
+				4715FB2A29BA573500587F20 /* DragableImage.swift */,
 				4743AC9629B8F8A000242526 /* HelperFunctions.swift */,
+				4715FB2C29BA5D6700587F20 /* PuzzleView.swift */,
 				4743AC8A29B8F3B700242526 /* Assets.xcassets */,
 				4743AC8C29B8F3B700242526 /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 				4743AC8729B8F3B500242526 /* puzzleGame_1App.swift in Sources */,
 				4743AC9529B8F3E500242526 /* ImagePicker.swift in Sources */,
 				4743AC9729B8F8A000242526 /* HelperFunctions.swift in Sources */,
+				4715FB2B29BA573500587F20 /* DragableImage.swift in Sources */,
+				4715FB2D29BA5D6700587F20 /* PuzzleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
