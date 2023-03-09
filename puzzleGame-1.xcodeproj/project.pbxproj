@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4743AC8729B8F3B500242526 /* puzzleGame_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743AC8629B8F3B500242526 /* puzzleGame_1App.swift */; };
-		4743AC8929B8F3B500242526 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743AC8829B8F3B500242526 /* ContentView.swift */; };
 		4743AC8B29B8F3B700242526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC8A29B8F3B700242526 /* Assets.xcassets */; };
 		4743AC8E29B8F3B700242526 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC8D29B8F3B700242526 /* Preview Assets.xcassets */; };
+		4743AC9529B8F3E500242526 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743AC9429B8F3E500242526 /* ImagePicker.swift */; };
+		4743AC9729B8F8A000242526 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743AC9629B8F8A000242526 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4743AC8329B8F3B500242526 /* puzzleGame-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "puzzleGame-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4743AC8629B8F3B500242526 /* puzzleGame_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzleGame_1App.swift; sourceTree = "<group>"; };
-		4743AC8829B8F3B500242526 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4743AC8A29B8F3B700242526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4743AC8D29B8F3B700242526 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4743AC9429B8F3E500242526 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4743AC9629B8F8A000242526 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				4743AC8629B8F3B500242526 /* puzzleGame_1App.swift */,
-				4743AC8829B8F3B500242526 /* ContentView.swift */,
+				4743AC9429B8F3E500242526 /* ImagePicker.swift */,
+				4743AC9629B8F8A000242526 /* HelperFunctions.swift */,
 				4743AC8A29B8F3B700242526 /* Assets.xcassets */,
 				4743AC8C29B8F3B700242526 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4743AC8929B8F3B500242526 /* ContentView.swift in Sources */,
 				4743AC8729B8F3B500242526 /* puzzleGame_1App.swift in Sources */,
+				4743AC9529B8F3E500242526 /* ImagePicker.swift in Sources */,
+				4743AC9729B8F8A000242526 /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
